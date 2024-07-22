@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+.contain{
+  background-color: aqua;
+  height: 100vb;
+  width: 100vi;
+  display: grid;
+}
+.login{
+  border: 2px solid black;
+  height: 40rem;
+  width: 35rem;
+  justify-self: center;
+  align-self: center;
+}
+.login input{
+  width: 12cm;
+  margin-left: 1.3cm;
+}
+.login svg{
+  position: absolute;
+  cursor: pointer;
+  right: 13.8cm;
+  top: 8.6cm;
+}
+.login label{
+  font-weight: 500;
+}
+.signup svg{
+ top: 11.1cm;
+}
+.logout{
+  width: 2cm;
+  font-size: small;
+  border-radius: 15px;
+  background-color: transparent;
+}
